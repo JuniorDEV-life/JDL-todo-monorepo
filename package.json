@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {},
   "workspaces": [
     "client",
-    "server"
+    "backend"
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mongoose": "^5.12.7"
-  }
+  "license": "ISC"
 }
