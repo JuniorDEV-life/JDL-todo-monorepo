@@ -6,7 +6,7 @@ import cors from 'cors'
 import userRoutes from "./components/users/userRoutes.js";
 
 const app = express()
-const port = process.env.PORT
+const port = process.env.PORT || 5000
 
 // cors
 app.use(cors())
