@@ -8,7 +8,7 @@ router.get('/:id', async (req, res, next) => {
 
     const users = User.find(req.params.id)
 
-    // handle not found
+    // handle user not found
     if (!users) {
       const error = new Error()
       error.httpStatusCode = 404
