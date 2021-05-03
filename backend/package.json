@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "./src/server.js",
   "type": "module",
   "scripts": {
     "test": "nodemon --exec mocha -R min",
     "dev": "nodemon -e js -r dotenv/config ./src/server.js",
-    "start": "node ./src/server.js"
+    "start": "node ./src/server.js",
+    "build": "node ./src/server.js"
   },
   "keywords": [],
   "author": "",
