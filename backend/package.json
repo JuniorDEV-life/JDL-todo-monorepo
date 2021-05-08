@@ -31,8 +31,8 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "dotenv": "^8.5.1",
-    "mocha": "^8.3.2",
+    "dotenv": "^8.6.0",
+    "mocha": "^8.4.0",
     "nodemon": "^2.0.7"
   }
 }
